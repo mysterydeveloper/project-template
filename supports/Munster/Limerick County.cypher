@@ -1,0 +1,10 @@
+CREATE(:Candidate {Name: "Niall Collins",Votes:"12276",Gender:"Male",Party:"FF "}),
+(:Candidate {Name: "Patrick O'Donovan",Votes:"8479",Gender:"Male",Party:"FG "}),
+(:Candidate {Name: "Tom Neville",Votes:"8013",Gender:"Male",Party:"FG "}),
+(:Candidate {Name: "Emmett O'Brien",Votes:"5432",Gender:"Male",Party:"Ind "}),
+(:Candidate {Name: "Seamus Browne",Votes:"3347",Gender:"Male",Party:"SF "}),
+(:Candidate {Name: "James Heffernan",Votes:"3270",Gender:"Male",Party:"SD "}),
+(:Candidate {Name: "Richard O'Donoghue",Votes:"2855",Gender:"Male",Party:"Ind "}),
+(:Candidate {Name: "Alexander Cosgrave",Votes:"311",Gender:"Male",Party:"GP "}),
+(:Candidate {Name: "Mark Keogh",Votes:"222",Gender:"Male",Party:"DDI "}),
+(:Candidate {Name: "John O'Gorman",Votes:"207",Gender:"Male",Party:"Ind "});
