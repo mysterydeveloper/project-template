@@ -1,0 +1,11 @@
+CREATE(:Candidate {Name: "Willie O'Dea",Votes:"12999",Gender:"Male",Party:"FF "}),
+(:Candidate {Name: "Michael Noonan",Votes:"7294",Gender:"Male",Party:"FG "}),
+(:Candidate {Name: "Kieran O'Donnell",Votes:"6047",Gender:"Male",Party:"FG "}),
+(:Candidate {Name: "Maurice Quinlivan",Votes:"5894",Gender:"Male",Party:"SF "}),
+(:Candidate {Name: "Jan O'Sullivan",Votes:"5227",Gender:"Female",Party:"Lab "}),
+(:Candidate {Name: "Cian Prendiville",Votes:"4584",Gender:"Male",Party:"AAA "}),
+(:Candidate {Name: "Sarah Jane Hennelly",Votes:"2747",Gender:"Female",Party:"SD "}),
+(:Candidate {Name: "James Gaffney",Votes:"964",Gender:"Male",Party:"GP "}),
+(:Candidate {Name: "Nora Bennis",Votes:"673",Gender:"Female",Party:"CD "}),
+(:Candidate {Name: "Desmond Hayes",Votes:"254",Gender:"Male",Party:"Ind "}),
+(:Candidate {Name: "Denis Riordan",Votes:"78",Gender:"Male",Party:"Ind "});
