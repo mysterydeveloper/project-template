@@ -1,0 +1,12 @@
+CREATE(:Candidate {Name: "Mary Butler",Votes:"10603",Gender:"Female",Party:"FF "}),
+(:Candidate {Name: "David Cullinane",Votes:"9739",Gender:"Male",Party:"SF "}),
+(:Candidate {Name: "John Halligan",Votes:"8306",Gender:"Male",Party:"IA "}),
+(:Candidate {Name: "John Deasy",Votes:"7641",Gender:"Male",Party:"FG "}),
+(:Candidate {Name: "Paudie Coffey",Votes:"7209",Gender:"Male",Party:"FG "}),
+(:Candidate {Name: "Ciara Conway",Votes:"2268",Gender:"Female",Party:"Lab "}),
+(:Candidate {Name: "Grace O'Sullivan",Votes:"2237",Gender:"Female",Party:"GP "}),
+(:Candidate {Name: "Una Dunphy",Votes:"1646",Gender:"Female",Party:"PBPA "}),
+(:Candidate {Name: "Mailo Power",Votes:"862",Gender:"Female",Party:"R "}),
+(:Candidate {Name: "John D Walsh",Votes:"858",Gender:"Male",Party:"CD "}),
+(:Candidate {Name: "Edward Quilty",Votes:"194",Gender:"Male",Party:"DDI "}),
+(:Candidate {Name: "Sheikh M. Ahmed",Votes:"140",Gender:"Male",Party:"Ind "});
