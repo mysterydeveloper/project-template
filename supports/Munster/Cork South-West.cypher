@@ -1,0 +1,11 @@
+CREATE(:Candidate {Name: "Margaret Murphy O'Mahony",Votes:"8482",Gender:"Female",Party:"FF "}),
+(:Candidate {Name: "Jim Daly",Votes:"7370",Gender:"Male",Party:"FG "}),
+(:Candidate {Name: "Michael Collins",Votes:"6765",Gender:"Male",Party:"Ind "}),
+(:Candidate {Name: "Noel Harrington",Votes:"6433",Gender:"Male",Party:"FG "}),
+(:Candidate {Name: "Alan Coleman",Votes:"4955",Gender:"Male",Party:"Ind "}),
+(:Candidate {Name: "Rachel McCarthy",Votes:"3656",Gender:"Female",Party:"SF "}),
+(:Candidate {Name: "Michael McCarthy",Votes:"3035",Gender:"Male",Party:"Lab "}),
+(:Candidate {Name: "Johnny O'Mahony",Votes:"752",Gender:"Male",Party:"GP "}),
+(:Candidate {Name: "Gillian Powell",Votes:"701",Gender:"Female",Party:"Ind "}),
+(:Candidate {Name: "Theresa Heaney",Votes:"686",Gender:"Female",Party:"CD "}),
+(:Candidate {Name: "Fiona O'Leary",Votes:"423",Gender:"Female",Party:"Ind "});
