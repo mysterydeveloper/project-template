@@ -1,0 +1,13 @@
+CREATE(:Candidate {Name: "Aindrias Moynihan",Votes:"8924",Gender:"Male",Party:"FF "}),
+(:Candidate {Name: "Michael Creed",Votes:"8924",Gender:"Male",Party:"FG "}),
+(:Candidate {Name: "Michael Moynihan",Votes:"7332",Gender:"Male",Party:"FF "}),
+(:Candidate {Name: "Áine Collins",Votes:"6237",Gender:"Female",Party:"FG "}),
+(:Candidate {Name: "John Paul O'Shea",Votes:"4814",Gender:"Male",Party:"Ind "}),
+(:Candidate {Name: "Nigel Dennehy",Votes:"3238",Gender:"Male",Party:"SF "}),
+(:Candidate {Name: "Diarmuid O'Flynn",Votes:"2159",Gender:"Male",Party:"IA "}),
+(:Candidate {Name: "Jason Fitzgerald",Votes:"1568",Gender:"Male",Party:"R "}),
+(:Candidate {Name: "Steven O'Riordan",Votes:"1361",Gender:"Male",Party:"Ind "}),
+(:Candidate {Name: "Cormac Manning",Votes:"1354",Gender:"Male",Party:"GP "}),
+(:Candidate {Name: "Jerry O'Sullivan",Votes:"478",Gender:"Male",Party:"Ind "}),
+(:Candidate {Name: "Shirley Griffin",Votes:"439",Gender:"Female",Party:"Ind "}),
+(:Candidate {Name: "Michael O'Donnell",Votes:"185",Gender:"Male",Party:"CPI "});
