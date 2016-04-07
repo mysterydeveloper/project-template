@@ -1,0 +1,11 @@
+CREATE(:Candidate {Name: "Mary Mitchell O'Connor",Votes:"10817",Gender:"Female",Party:"FG "}),
+(:Candidate {Name: "Maria Bailey",Votes:"10489",Gender:"Female",Party:"FG "}),
+(:Candidate {Name: "Richard Boyd Barrett",Votes:"9775",Gender:"Male",Party:"PBPA "}),
+(:Candidate {Name: "Mary Hanafin",Votes:"6478",Gender:"Female",Party:"FF "}),
+(:Candidate {Name: "Carrie Smyth",Votes:"5192",Gender:"Female",Party:"Lab "}),
+(:Candidate {Name: "Cormac Devlin",Votes:"5192",Gender:"Male",Party:"FF "}),
+(:Candidate {Name: "Ossian Smyth",Votes:"3478",Gender:"Male",Party:"GP "}),
+(:Candidate {Name: "Shane O'Brien",Votes:"3478",Gender:"Male",Party:"SF "}),
+(:Candidate {Name: "Carol Hunt",Votes:"3152",Gender:"Female",Party:"IA "}),
+(:Candidate {Name: "Frank Cronin",Votes:"1812",Gender:"Male",Party:"R "}),
+(:Candidate {Name: "Raymond Whitehead",Votes:"213",Gender:"Male",Party:"DDI "});
