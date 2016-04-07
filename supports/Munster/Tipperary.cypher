@@ -1,0 +1,13 @@
+CREATE(:Candidate {Name: "Michael Lowry",Votes:"13064",Gender:"Male",Party:"Ind "}),
+(:Candidate {Name: "Mattie McGrath",Votes:"11237",Gender:"Male",Party:"Ind "}),
+(:Candidate {Name: "Alan Kelly",Votes:"7746",Gender:"Male",Party:"Lab "}),
+(:Candidate {Name: "Seamus Healy",Votes:"7452",Gender:"Male",Party:"Ind "}),
+(:Candidate {Name: "Jackie Cahill",Votes:"7414",Gender:"Male",Party:"FF "}),
+(:Candidate {Name: "Michael Smith",Votes:"6718",Gender:"Male",Party:"FF "}),
+(:Candidate {Name: "Tom Hayes",Votes:"6218",Gender:"Male",Party:"FG "}),
+(:Candidate {Name: "Seamus Morris",Votes:"5724",Gender:"Male",Party:"SF "}),
+(:Candidate {Name: "Noel Coonan",Votes:"4782",Gender:"Male",Party:"FG "}),
+(:Candidate {Name: "Siobhan Ambrose",Votes:"4472",Gender:"Female",Party:"FF "}),
+(:Candidate {Name: "Marie Murphy",Votes:"1542",Gender:"Female",Party:"FG "}),
+(:Candidate {Name: "Gearóid Fitzgibbon",Votes:"1341",Gender:"Male",Party:"GP "}),
+(:Candidate {Name: "Michael Dillon",Votes:"238",Gender:"Male",Party:"Ind "});
