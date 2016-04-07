@@ -1,0 +1,13 @@
+CREATE(:Candidate {Name: "Aengus O' Snodaigh",Votes:"6639",Gender:"Male",Party:"SF "}),
+(:Candidate {Name: "Joan Collins",Votes:"6195",Gender:"Female",Party:"Ind "}),
+(:Candidate {Name: "Catherine Byrne",Votes:"6130",Gender:"Female",Party:"FG "}),
+(:Candidate {Name: "Catherine Ardagh",Votes:"5441",Gender:"Female",Party:"FF "}),
+(:Candidate {Name: "Brid Smith",Votes:"4374",Gender:"Female",Party:"PBPA "}),
+(:Candidate {Name: "Maire Devine",Votes:"3332",Gender:"Female",Party:"SF "}),
+(:Candidate {Name: "Eric Byrne",Votes:"3297",Gender:"Male",Party:"Lab "}),
+(:Candidate {Name: "Liam Coyne",Votes:"2434",Gender:"Male",Party:"SD "}),
+(:Candidate {Name: "Paul Hand",Votes:"2011",Gender:"Male",Party:"Ind "}),
+(:Candidate {Name: "Oisin O' hAlmhain",Votes:"1410",Gender:"Male",Party:"GP "}),
+(:Candidate {Name: "Michael Gargan",Votes:"893",Gender:"Male",Party:"R "}),
+(:Candidate {Name: "Neville Bradley",Votes:"407",Gender:"Male",Party:"DDI "}),
+(:Candidate {Name: "Richard Murray",Votes:"294",Gender:"Male",Party:"Ind "});
