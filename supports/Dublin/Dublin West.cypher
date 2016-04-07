@@ -1,0 +1,11 @@
+CREATE(:Candidate {Name: "Leo Varadkar",Votes:"8247",Gender:"Male",Party:"FG "}),
+(:Candidate {Name: "Jack Chambers",Votes:"6917",Gender:"Male",Party:"FF "}),
+(:Candidate {Name: "Ruth Coppinger",Votes:"6520",Gender:"Female",Party:"PBPA "}),
+(:Candidate {Name: "Joan Burton",Votes:"6445",Gender:"Female",Party:"Lab "}),
+(:Candidate {Name: "Paul Donnelly",Votes:"6034",Gender:"Male",Party:"SF "}),
+(:Candidate {Name: "David McGuinness",Votes:"2991",Gender:"Male",Party:"IA "}),
+(:Candidate {Name: "Roderic O'Gorman",Votes:"1730",Gender:"Male",Party:"GP "}),
+(:Candidate {Name: "TJ Clare",Votes:"1092",Gender:"Male",Party:"Ind "}),
+(:Candidate {Name: "Catherine Noone",Votes:"1074",Gender:"Female",Party:"FG "}),
+(:Candidate {Name: "Jo O'Brien",Votes:"677",Gender:"Female",Party:"R "}),
+(:Candidate {Name: "Dermot Casey",Votes:"225",Gender:"Male",Party:"Ind "});
