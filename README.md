@@ -1,5 +1,5 @@
 # Irish Constituencies Neo4j Database
-###### Student name, G00123456
+###### Student Manus Duggan, G00308303
 
 ## Introduction
 Give a summary here of what your project is about.
@@ -55,35 +55,50 @@ Create-Parties-Relationships.cypher in this exact order.
 
  
 ## Queries
-Summarise your three queries here.
-Then explain them one by one in the following sections.
+The queries are based on on the candidates and their relationships to other nodes 
 
-#### Query one title
-This query retreives the Bacon number of an actor...
+#### Winners For other parties
+A query to find all the candidates who won a seat in the same constituency as Enda Kenny  where there arent part he same party it is order by the candidates name descending
 ```cypher
-MATCH
-	(Bacon)
-RETURN
-	Bacon;
+MATCH 
+	(Enda:Candidate { Name: "Enda Kenny" })-[:WON_A_SEAT*1..5]-(candidates_OF_candidate:Candidate)
+WHERE 
+	NOT Enda.Party=candidates_OF_candidate.Party
+RETURN 
+	candidates_OF_candidate.Name
+ORDER BY 
+	candidates_OF_candidate.Name DESC;
 ```
 
 #### Query two title
 This query retreives the Bacon number of an actor...
 ```cypher
-MATCH
-	(Bacon)
-RETURN
-	Bacon;
+MATCH 
+	(n:constituency)
+RETURN 
+	avg(toFloat(n.Quota)/toFloat(n.TotalPoll))
 ```
 
-#### Query three title
-This query retreives the Bacon number of an actor...
+####Shortest Path
+This query gives you the shortest path between two nodes. In this i am getting the shortes path between Finna Fail leader Michéal Martin and Fine Gael leader Enda Kenny and i am limiting it to 5 nodes max
 ```cypher
-MATCH
-	(Bacon)
-RETURN
-	Bacon;
+MATCH 
+	(martin:Candidate { Name:"Michéal Martin" }),(Enda:Candidate { Name:"Enda Kenny" }),
+	p = shortestPath((martin)-[*..5]-(Enda))
+RETURN 
+	p;
+```
+
+
+####I couldnt resist
+This returns all the corrupt Candidates
+```cypher
+MATCH 
+	(n:Candidate)
+RETURN 
+	n;
 ```
 
 ## References
 1. [Neo4J website](http://neo4j.com/), the website of the Neo4j database.
+2. http://elections.independent.ie/election-2016
