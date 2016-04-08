@@ -1,5 +1,4 @@
-// This query creates nodes representing all 11 PARTIES in Ireland.
-// With name, Leader,translation,Founded,InauguralLeader,Ideology,Position,IO(International organisation) EPGROUP AS PROPERTIES
+// This query creates nodes representing all 12 PARTIES in Ireland.
 
 CREATE (:PARTY {name:"Fine Gael",Leader:"Enda Kenny",translation:"Clan of the Gaels",Founded:"1933",InauguralLeader:" Eoin O'Duffy",Ideology:"",Position:"Centre-right",IO:"Centrist Democrat International",EPGroup:"EPP",party: "FG"}),
 (:PARTY {name:"Labour Party",Leader:"Joan Burton",translation:"Páirtí an Lucht Oibre",Founded:"1912",InauguralLeader:"James Connolly James Larkin William X. O'Brien",Ideology:"",Position:"Centre-left",IO:"Socialist International",EPGroup:"S&D",party: "Lab"}),

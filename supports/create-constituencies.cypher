@@ -1,5 +1,4 @@
 // This query creates nodes representing all 40 constituencies in Ireland.
-// With name, population, seats and Description AS PROPERTIES
 
 CREATE(:constituency {name:"Dublin Bay South",Electorate:"73066",Seats:"4",TotalPoll:"40016",Turnout:"54.77",ValidPoll:"39703",SpoiledVotes:"313",Quota:"7941",ShortTag:"DBS"}),
 (:constituency {name:"Dublin South-Central",Electorate:"74942",Seats:"4",TotalPoll:"43551",Turnout:"58.11",ValidPoll:"42857",SpoiledVotes:"694",Quota:"8572",ShortTag:"DSC"}),
