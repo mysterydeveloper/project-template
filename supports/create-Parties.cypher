@@ -11,5 +11,5 @@ CREATE (:PARTY {name:"Fine Gael",Leader:"Enda Kenny",translation:"Clan of the Ga
 (:PARTY {name:"Green Party",Leader:"Eamon Ryan",translation:"Comhaontas Glas",Founded:"1981",InauguralLeader:" none",Ideology:"",Position:"Centre-left",IO:"Global Greens",EPGroup:"Greens/EFA", party: "GP"}),
 (:PARTY {name:"Workers' Party",Leader:"Michael Donnelly",translation:"Páirtí na nOibrithe",Founded:"1970",InauguralLeader:" Tomás Mac Giolla",Ideology:"",Position:"Far-left",IO:"Communist and Workers' Parties",EPGroup:"none", party: "WP"}),
 (:PARTY {name:"Independents",Leader:"None",Ideology:"",Position:"Independent", party: "Ind"}),
-(:PARTY {name:"Independent Alliance",Leader:"None",Ideology:"",Position:"Independents", party: "IA"}),PBPA
+(:PARTY {name:"Independent Alliance",Leader:"None",Ideology:"",Position:"Independents", party: "IA"}),
 (:PARTY {name:"Misc",party: "Misc"});

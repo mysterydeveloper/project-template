@@ -1,6 +1,6 @@
-CREATE(:Candidate {Name: "Denis Naughten",Votes:"13936",Gender:"Male",Party:"Ind"}),
-(:Candidate {Name: "Michael Fitzmaurice",Votes:"9750",Gender:"Male",Party:"IA"}),
-(:Candidate {Name: "Eugene Murphy",Votes:"6813",Gender:"Male",Party:"FF"}),
+CREATE(:Candidate {Name: "Denis Naughten",Votes:"13936",Gender:"Male",Party:"Ind",Won:"RSG"}),
+(:Candidate {Name: "Michael Fitzmaurice",Votes:"9750",Gender:"Male",Party:"IA",Won:"RSG"}),
+(:Candidate {Name: "Eugene Murphy",Votes:"6813",Gender:"Male",Party:"FF",Won:"RSG"}),
 (:Candidate {Name: "Maura Hopkins",Votes:"6812",Gender:"Female",Party:"FG"}),
 (:Candidate {Name: "Claire Kerrane",Votes:"3075",Gender:"Female",Party:"SF"}),
 (:Candidate {Name: "Shane Curran",Votes:"2006",Gender:"Male",Party:"FF"}),
@@ -9,4 +9,4 @@ CREATE(:Candidate {Name: "Denis Naughten",Votes:"13936",Gender:"Male",Party:"Ind
 (:Candidate {Name: "Anne Farrell",Votes:"520",Gender:"Female",Party:"R"}),
 (:Candidate {Name: "Miriam Hennesy",Votes:"286",Gender:"Female",Party:"GP"}),
 (:Candidate {Name: "Anthony Coleman",Votes:"214",Gender:"Male",Party:"Ind"}),
-(:Candidate {Name: "Thomas Fallon",Votes:"75",Gender:"Male",Party:"Ind"}),;
+(:Candidate {Name: "Thomas Fallon",Votes:"75",Gender:"Male",Party:"Ind"});
