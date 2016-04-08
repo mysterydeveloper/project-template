@@ -70,8 +70,8 @@ ORDER BY
 	candidates_OF_candidate.Name DESC;
 ```
 
-#### Query two title
-This query retreives the Bacon number of an actor...
+#### Average Quoata percentage needed
+A query that shows you the average percent needed (as per the quota) . What is need is determined by quota and how many people voted is TotalPoll to get the return value you have to divied the quota by the totalPoll on the day
 ```cypher
 MATCH 
 	(n:constituency)
